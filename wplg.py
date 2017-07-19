@@ -32,8 +32,7 @@ def checkwp(addr):
 			webversion = 1
 		else:
 			print 'Unable To Get Versoin!\nYou Can Also Check Your Target Here : http://www.wpthemedetector.com\n'
-			print 'ThankYou For Choosing This Tool To Test Your Website'
-			print 'Share Your Feedback Throught Mail With Me\n0x5a337230@protonmail.com\n'
+			print 'ThankYou For Choosing This Tool To Test Your Website\n'
 			exit()
 
 	else:
@@ -112,7 +111,6 @@ if __name__ == '__main__':
 		checkplg(options.addr)
 		checkthm(options.addr)
 		os.remove('tmp.txt')
-		print '\nThankYou For Choosing This Tool To Test Your Website'
-		print 'Share Your Feedback Throught Mail With Me\n0x5a337230@protonmail.com\n'
+		print '\nThankYou For Choosing This Tool To Test Your Website\n'
 	else:
 		parser.print_help()
